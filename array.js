@@ -39,3 +39,4 @@ function _number(quantity)
 
 console.log(typeof (color))
 
+console.log(typeof (color))
