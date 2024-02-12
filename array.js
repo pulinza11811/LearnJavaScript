@@ -21,7 +21,10 @@ console.log(color[color.length-1])
 let baht = [80,600,90,30]
 console.log("before",baht.sort())
 
-baht.sort((a, b) => a - b);
+baht.sort(function(a,b)
+{
+    return a-b
+});
 console.log("after",baht);
 
 for(let i = 0; i<baht.length; i++)
@@ -36,5 +39,34 @@ function _number(quantity)
     
     console.log(quantity)
 }
+    
+ function tostring()
+ {
+    let x = color.toString()
+    console.log(typeof x, x)
+ }
+ //tostring()
 
-console.log(typeof (color))
+ function tojoin()
+ {
+    let y = color.join(" ")
+    console.log(typeof y , y)
+ }
+ tojoin()
+
+ function pop() 
+ { 
+    let z = color.pop()
+    console.log(color)
+ }
+ pop()
+
+let totol = student.concat(color,baht)
+console.log(totol)
+
+let point = [90,50,600,888,10,-10]
+point.sort(function(a,b)
+{
+    return a-b
+})
+console.log(point)
