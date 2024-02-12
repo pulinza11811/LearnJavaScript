@@ -37,4 +37,4 @@ function _number(quantity)
     console.log(quantity)
 }
 
-console.log(typeof (color))//test
+console.log(typeof (color))//test hello world
