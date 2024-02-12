@@ -37,4 +37,4 @@ function _number(quantity)
     console.log(quantity)
 }
 
-console.log(typeof (color))//abc
+console.log(typeof (color))
