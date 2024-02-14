@@ -55,3 +55,18 @@ function information()
 console.log(r)
 information()
 console.log(r)
+
+function daleteData()
+{
+    let result = confirm("คุณอายุครบ 18ปี แล้วหรือไม่?")
+    if(result == true)
+    {
+        document.getElementById("pop").innerHTML = "เข้าสู่ระบบกรุณารอสักครู่"
+    }
+    else
+    {
+        document.getElementById("pop").innerHTML = "หมดเวลา Login กรุณาลองใหม่ภายหลัง"
+    }
+
+}
+

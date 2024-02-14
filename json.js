@@ -8,7 +8,7 @@ let user =
     phone : "0625470909",
     Getusers:function()
     {
-        return this.name+" =>"+this.email+" =>"+this.phone
+        return this.name+" "+this.email+" "+this.phone
     }
 }
-console.log(user.name)
+console.log(user.Getusers());
